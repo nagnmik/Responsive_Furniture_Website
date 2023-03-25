@@ -1,0 +1,213 @@
+/* Navbar Start*/
+#navbar{
+    background: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: #7FB5FF;
+}
+.navbar-toggler span{
+    color: #7FB5FF;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #7FB5FF;
+    color: white;
+}
+.navbar-collapse i:hover{
+    color: #7FB5FF;
+}
+#navbar form button{
+    color: white;
+    background: #7FB5FF;
+    border: none;
+}
+/* Navbar End*/
+
+/*Carouse Start*/
+.carousel-caption h2{
+    text-transform: uppercase;
+}
+.carousel-caption h2 span{
+    font-size: 80px;
+    font-weight: 700;
+    color: #7FB5FF;
+}
+.content-slide3{
+    font-size: 30px;
+    margin-bottom: 50px;
+    background: rgba(248, 242, 242, 0.5);
+    color: #0f2a4e;
+}
+.content-slide3 span{
+    font-size: 50px;
+}
+.carousel-item img{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Carouse End*/
+
+/*Best Product Start*/
+.heading-section{
+    color: #000;
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+}
+.heading-section::before{
+    content: '';
+    position: absolute;
+    top: 44px;
+    left: 134px;
+    background-color: #7FB5FF;
+    height: 3px;
+    width: 149px;
+}
+.heading-section::after{
+    content: '';
+    position: absolute;
+    top: 44px;
+    right: 134px;
+    background-color: #7FB5FF;
+    height: 3px;
+    width: 149px;
+}
+#btn-seeAll{
+    color: #7FB5FF;
+    background-color: white;
+    padding: 10px 30px;
+    border: 1px solid #7FB5FF;
+    border-radius: 5px;
+}
+#btn-seeAll:hover{
+    color: white;
+    background-color: #7FB5FF;
+    border: none;
+}
+#btn-explore{
+    color: #f9f9f9;
+    background-color: #7FB5FF;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+#btn-explore:hover{
+    color: #7FB5FF;
+    background-color: white;
+    border: 1px solid #7FB5FF;
+}
+/*Best Product End*/
+
+/*Footer Start*/
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color: #7FB5FF;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: #7FB5FF;
+}
+/*Footer End*/
+
+@media (max-width: 1140px) {
+    .heading-section{
+        position: relative;
+        font-size: 22px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+    .heading-section::before{
+        content: '';
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        width: 100px;
+    }
+    .heading-section::after{
+        content: '';
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 850px){
+    #demo{
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 450px){
+    .carousel-caption h2 span{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .content-slide3{
+        font-size: 16px;
+    }
+    .content-slide3 span{
+        font-size: 40px;
+    }
+    .heading-section{
+        position: relative;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+    .heading-section::before{
+        content: '';
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        width: 50px;
+    }
+    .heading-section::after{
+        content: '';
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        width: 50px;
+    }
+}
+
